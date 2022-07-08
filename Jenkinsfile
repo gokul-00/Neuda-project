@@ -1,6 +1,8 @@
 def projectName = 'products-demo'
 def dockerImageName = "sample-image"
 
+properties([pipelineTriggers([githubPush()])])
+
 pipeline {
   agent any
   stages {
