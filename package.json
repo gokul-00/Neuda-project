@@ -1,0 +1,22 @@
+{
+	"name": "neuda-project",
+	"version": "1.0.0",
+	"description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://imgokul1-admin@bitbucket.org/imgokul1/neuda-project.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"homepage": "https://bitbucket.org/imgokul1/neuda-project#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.1"
+	}
+}
