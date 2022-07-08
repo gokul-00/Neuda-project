@@ -1,5 +1,4 @@
-def projectName = 'products-demo'
-def dockerImageName = "sample-image"
+def dockerImageName = "app-image"
 
 properties([pipelineTriggers([githubPush()])])
 

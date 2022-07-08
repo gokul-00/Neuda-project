@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Bootstrap 5</title>
+		<title>Weather Forecast</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -294,7 +294,7 @@ body {
 	  </section>
 	  <footer class="page-footer">
 		<div class="container">
-		  <small>Made with <span>❤</span> by <a href="http://georgemartsoukos.com/" target="_blank">Team 5</a>
+		  <small>Made with <span>❤</span> by Team 5</a>
 		  </small>
 		</div>
 	  </footer>
@@ -306,12 +306,10 @@ body {
 		></script>
 
 		<script>
-			/*SEARCH BY USING A CITY NAME (e.g. athens) OR A COMMA-SEPARATED CITY NAME ALONG WITH THE COUNTRY CODE (e.g. athens,gr)*/
 const form = document.querySelector(".top-banner form");
 const input = document.querySelector(".top-banner input");
 const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
-/*SUBSCRIBE HERE FOR API KEY: https://home.openweathermap.org/users/sign_up*/
 const apiKey = "4d8fb5b93d4af21d66a2948710284366";
 
 form.addEventListener("submit", e => {
